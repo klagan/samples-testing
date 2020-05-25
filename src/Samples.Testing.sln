@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Testing.WebApp", "Samples.Testing.WebApp\Samples.Testing.WebApp.csproj", "{875A282F-5DC9-4B40-8FCF-4A04E92D01B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Testing.Tests", "Samples.Testing.Tests\Samples.Testing.Tests.csproj", "{F47CFAB0-836F-4305-BD66-2A16D0A29F95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{32F4DFDE-6452-4022-B7D2-166AAA460622}"
+ProjectSection(SolutionItems) = preProject
+	..\readme.md = ..\readme.md
+	..\.gitignore = ..\.gitignore
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{875A282F-5DC9-4B40-8FCF-4A04E92D01B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{875A282F-5DC9-4B40-8FCF-4A04E92D01B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{875A282F-5DC9-4B40-8FCF-4A04E92D01B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{875A282F-5DC9-4B40-8FCF-4A04E92D01B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47CFAB0-836F-4305-BD66-2A16D0A29F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47CFAB0-836F-4305-BD66-2A16D0A29F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47CFAB0-836F-4305-BD66-2A16D0A29F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47CFAB0-836F-4305-BD66-2A16D0A29F95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
