@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+
+  jmeter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sample/jmeter
+    container_name: jmeter
+    restart: "no"
+    command: -n -t /tests/my_tests.jmx -l /results/log.jtl
+    volumes:
+      - type: bind
+        source: ./results
+        target: /results
+      - type: bind
+        source: ./tests
+        target: /tests
+    environment:
+      - JMETER_VERSION=5.3
