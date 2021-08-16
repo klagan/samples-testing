@@ -1,3 +1,4 @@
 results/*.*
 run_test_kaml.sh
-
+aprexocom-kaml/
+openapi-generator-cli.jar

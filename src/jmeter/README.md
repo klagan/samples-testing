@@ -43,6 +43,12 @@ echo "Add ${JMETER_BIN} to the PATH"
 # echo $JMETER_PLUGINS_DOWNLOAD_URL
 # echo $JMETER_PLUGINS_FOLDER
 ```
+
+## Generate jmeter tests directly from Open API specification
+
+- install `openapi-generator-cli` 
+- example execution: `java -jar openapi-generator-cli.jar generate -i swagger.json -g jmeter`
+
 ---
 
 ## Sources
